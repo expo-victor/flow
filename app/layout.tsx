@@ -31,7 +31,10 @@ export const metadata: Metadata = {
     description: "Plataforma interna de ticketing para soporte técnico en Expoflamenco",
     images: [
       {
-        url: "https://flow-nine-mauve.vercel.app/branding/preloader_icon.svg",
+        url: "/branding/preloader_icon.png",
+        width: 1200,
+        height: 1200,
+        alt: "Expoflamenco Flow",
       },
     ],
   },
@@ -39,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Expoflamenco Flow",
     description: "Plataforma interna de ticketing para soporte técnico en Expoflamenco",
-    images: ["https://flow-nine-mauve.vercel.app/branding/preloader_icon.svg"],
+    images: ["/branding/preloader_icon.png"],
   },
   other: {
     "twitter:domain": "flow-nine-mauve.vercel.app",
