@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "version": 1,
+    "updatedAt": "2026-02-19T11:05:26.644Z",
+    "nextIds": {
+      "requester": 4,
+      "requesterSession": 5,
+      "supportUser": 7,
+      "supportSession": 4,
+      "ticket": 5,
+      "ticketMessage": 13,
+      "ticketEvent": 16
+    }
+  },
+  "requesters": [
+    {
+      "id": "1",
+      "name": "Víctor Moya",
+      "email": "victor@expoflamenco.com",
+      "createdAt": "2026-02-18T16:49:07.818Z",
+      "updatedAt": "2026-02-18T17:10:12.660Z"
+    },
+    {
+      "id": "2",
+      "name": "victror",
+      "email": "victortest@gmail.com",
+      "createdAt": "2026-02-18T18:50:56.190Z",
+      "updatedAt": "2026-02-18T18:50:56.190Z"
+    },
+    {
+      "id": "3",
+      "name": "Alberto Moya",
+      "email": "alberto@expoflamenco.com",
+      "createdAt": "2026-02-19T09:52:02.261Z",
+      "updatedAt": "2026-02-19T09:52:02.261Z"
+    }
+  ],
+  "requesterSessions": [
+    {
+      "id": "1",
+      "requesterId": "1",
+      "tokenHash": "c1d3b9f538ae65d4d67d12d38030560c1d05295f0e477d76ffe14ea62385d668",
+      "createdAt": "2026-02-18T16:49:07.820Z",
+      "expiresAt": "2026-03-20T16:49:07.820Z",
+      "lastSeenAt": "2026-02-18T16:49:07.820Z"
+    },
+    {
+      "id": "2",
+      "requesterId": "1",
+      "tokenHash": "9073bfa4f2c6216d12b831b26d2227c0c584e686f337c4356650cd78d4a17dea",
+      "createdAt": "2026-02-18T17:10:12.676Z",
+      "expiresAt": "2026-03-20T17:10:12.676Z",
+      "lastSeenAt": "2026-02-18T17:10:12.676Z"
+    },
+    {
+      "id": "3",
+      "requesterId": "2",
+      "tokenHash": "058d560d19b7af61b9c2e3a28ef1427dfdb6f2b2243048e4735226283365c27e",
+      "createdAt": "2026-02-18T18:50:56.192Z",
+      "expiresAt": "2026-03-20T18:50:56.192Z",
+      "lastSeenAt": "2026-02-18T18:50:56.192Z"
+    },
+    {
+      "id": "4",
+      "requesterId": "3",
+      "tokenHash": "eac09127f233665e8a94080860d23e3da1dd7d253b627bcfdae57eae7498ac90",
+      "createdAt": "2026-02-19T09:52:02.261Z",
+      "expiresAt": "2026-04-20T09:52:02.261Z",
+      "lastSeenAt": "2026-02-19T09:52:02.261Z"
+    }
+  ],
+  "supportUsers": [
+    {
+      "id": "1",
+      "name": "Administrador Flow",
+      "email": "admin@expoflamenco.com",
+      "passwordHash": "ef48a85c6f79aa163f9bea43e2571094:801728c2701ec4dca68da0af7bccfcd646a94dc902f7b186c99efb3d1763f752ab16beb000e320530fcf9b8101feaad65a19ea9ade0a2781e836d0eec9b291df",
+      "createdAt": "2026-02-18T10:59:23.852Z",
+      "isActive": false
+    },
+    {
+      "id": "2",
+      "name": "Carmen Fernández",
+      "email": "carmen.soporte@expoflamenco.com",
+      "passwordHash": "9cb848eb360335416b04d20cdc31c281:8f43367496131217b9e0fe16cb1030d575e90262436acbb47c1348e9ca00d05a26b49d0066e5d366587d9516ede95ec8f4944f45d3d6b76c7d70251ca5af7514",
+      "createdAt": "2026-02-18T20:19:48.180Z",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Miguel Suárez",
+      "email": "miguel.soporte@expoflamenco.com",
+      "passwordHash": "16f030560763cba00de0315ad611e4a2:ce50e6192ae78eeb46dbd8b7cbafee821471b0dd6a1f2a0126f82469b938587609d731d03ecd91a84359c061adf2822af28f942c7e774d1eeda75ba53aedf093",
+      "createdAt": "2026-02-18T20:19:48.202Z",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Lucia González",
+      "email": "lucia.soporte@expoflamenco.com",
+      "passwordHash": "749403d1e1b90a1feed742f8781e82ee:f91a07ca87b88ac771efc34f152fff1adc1b7d3716e0de94b464323fe80b7ec50757e9eae5446c711765c3b34350b6ec2b98c7b6c98eca1605669cbe7c2a5dc2",
+      "createdAt": "2026-02-18T20:19:48.222Z",
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "name": "Rocio Cárdenas",
+      "email": "rocio.soporte@expoflamenco.com",
+      "passwordHash": "7042b13d5bc22532f18811d746010da0:bae68312db17c66aab722b5d6d24345877bdbd58773e9e635476b7c371a5f8e128fed83b5c334568b1709a9ae8f89059ec33d47de23b6619a5636a4d82132abe",
+      "createdAt": "2026-02-18T20:19:48.242Z",
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "name": "Antonio Muito",
+      "email": "antonio.soporte@expoflamenco.com",
+      "passwordHash": "fa3741853c2c7cba96f7095363b1637d:cdb19fe1bc90c3614b6603312cd01ca8efd1944a62d03bf24d4fece9e5cae81d0d83723a2a4ad87b9a9f34faf65b6bc3a47ddaf8d1028a3f9e1f4f39706e3afb",
+      "createdAt": "2026-02-18T20:19:48.263Z",
+      "isActive": true
+    }
+  ],
+  "supportSessions": [
+    {
+      "id": "1",
+      "supportUserId": "1",
+      "tokenHash": "81b9e589d1fc3afb4c2316209a5c1b1ebb139b80871aed02a30d1a528bb6c6c3",
+      "createdAt": "2026-02-18T12:24:34.318Z",
+      "expiresAt": "2026-02-19T00:24:34.318Z",
+      "lastSeenAt": "2026-02-18T12:24:34.318Z"
+    },
+    {
+      "id": "2",
+      "supportUserId": "2",
+      "tokenHash": "ddc25d1a7f04e138486a4d08e0a8d4581d94a2bb63cea14bd45658a8aba8df30",
+      "createdAt": "2026-02-18T20:23:04.603Z",
+      "expiresAt": "2026-02-19T08:23:04.603Z",
+      "lastSeenAt": "2026-02-18T20:23:04.603Z"
+    },
+    {
+      "id": "3",
+      "supportUserId": "2",
+      "tokenHash": "a833e15e5d015b19d8994608e91edec388ae40954442f38fb047cd0951db70f6",
+      "createdAt": "2026-02-19T09:36:57.580Z",
+      "expiresAt": "2026-02-19T21:36:57.580Z",
+      "lastSeenAt": "2026-02-19T09:36:57.580Z"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "code": "FLOW-000001",
+      "requesterId": "1",
+      "subject": "Esto es un ticket de prueba",
+      "description": "Hola!",
+      "status": "open",
+      "priority": "high",
+      "assigneeId": null,
+      "createdAt": "2026-02-18T16:49:07.818Z",
+      "updatedAt": "2026-02-18T16:49:07.818Z"
+    },
+    {
+      "id": "2",
+      "code": "18021810",
+      "requesterId": "1",
+      "subject": "Test 2",
+      "site": "comunidad",
+      "description": "com test",
+      "status": "open",
+      "priority": "normal",
+      "assigneeId": null,
+      "createdAt": "2026-02-18T17:10:12.660Z",
+      "updatedAt": "2026-02-18T17:10:12.660Z"
+    },
+    {
+      "id": "3",
+      "code": "18021950",
+      "requesterId": "2",
+      "subject": "soy un poco tonto",
+      "site": "tv",
+      "description": "lo que me pasa es que soy un poco tonto",
+      "status": "in_progress",
+      "priority": "normal",
+      "assigneeId": "2",
+      "createdAt": "2026-02-18T18:50:56.190Z",
+      "updatedAt": "2026-02-19T09:48:53.255Z"
+    },
+    {
+      "id": "4",
+      "code": "19021052",
+      "requesterId": "3",
+      "subject": "Me he dado un golpe en el pie",
+      "site": "espacio",
+      "description": "Me he hecho daño golpeándome el pie contra el suelo",
+      "status": "in_progress",
+      "priority": "urgent",
+      "assigneeId": null,
+      "createdAt": "2026-02-19T09:52:02.261Z",
+      "updatedAt": "2026-02-19T10:12:58.561Z"
+    }
+  ],
+  "ticketMessages": [
+    {
+      "id": "1",
+      "ticketId": "1",
+      "authorType": "requester",
+      "authorId": "1",
+      "visibility": "public",
+      "body": "Hola!",
+      "createdAt": "2026-02-18T16:49:07.818Z"
+    },
+    {
+      "id": "2",
+      "ticketId": "2",
+      "authorType": "requester",
+      "authorId": "1",
+      "visibility": "public",
+      "body": "com test",
+      "createdAt": "2026-02-18T17:10:12.660Z"
+    },
+    {
+      "id": "3",
+      "ticketId": "3",
+      "authorType": "requester",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "lo que me pasa es que soy un poco tonto",
+      "createdAt": "2026-02-18T18:50:56.190Z"
+    },
+    {
+      "id": "4",
+      "ticketId": "3",
+      "authorType": "requester",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "follow up",
+      "createdAt": "2026-02-18T18:52:08.617Z"
+    },
+    {
+      "id": "5",
+      "ticketId": "3",
+      "authorType": "requester",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "4rtrt",
+      "createdAt": "2026-02-18T18:52:10.450Z"
+    },
+    {
+      "id": "6",
+      "ticketId": "3",
+      "authorType": "requester",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "trtr",
+      "createdAt": "2026-02-18T18:52:11.682Z"
+    },
+    {
+      "id": "7",
+      "ticketId": "3",
+      "authorType": "requester",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "rttrtrr",
+      "createdAt": "2026-02-18T18:52:13.626Z"
+    },
+    {
+      "id": "8",
+      "ticketId": "3",
+      "authorType": "support",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "HOLA?",
+      "createdAt": "2026-02-18T21:25:08.436Z"
+    },
+    {
+      "id": "9",
+      "ticketId": "3",
+      "authorType": "support",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "e",
+      "createdAt": "2026-02-19T09:48:53.255Z"
+    },
+    {
+      "id": "10",
+      "ticketId": "4",
+      "authorType": "requester",
+      "authorId": "3",
+      "visibility": "public",
+      "body": "Me he hecho daño golpeándome el pie contra el suelo",
+      "createdAt": "2026-02-19T09:52:02.261Z"
+    },
+    {
+      "id": "11",
+      "ticketId": "4",
+      "authorType": "support",
+      "authorId": "2",
+      "visibility": "public",
+      "body": "¿Te duele mucho?",
+      "createdAt": "2026-02-19T09:56:10.146Z"
+    },
+    {
+      "id": "12",
+      "ticketId": "4",
+      "authorType": "requester",
+      "authorId": "3",
+      "visibility": "public",
+      "body": "Sí, me duele bastante. ¿Qué puedo hacer?",
+      "createdAt": "2026-02-19T10:12:58.561Z"
+    }
+  ],
+  "ticketEvents": [
+    {
+      "id": "1",
+      "ticketId": "1",
+      "actorType": "requester",
+      "actorId": "1",
+      "type": "ticket_created",
+      "meta": {
+        "status": "open",
+        "priority": "high"
+      },
+      "createdAt": "2026-02-18T16:49:07.818Z"
+    },
+    {
+      "id": "2",
+      "ticketId": "2",
+      "actorType": "requester",
+      "actorId": "1",
+      "type": "ticket_created",
+      "meta": {
+        "status": "open",
+        "priority": "normal",
+        "site": "comunidad"
+      },
+      "createdAt": "2026-02-18T17:10:12.660Z"
+    },
+    {
+      "id": "3",
+      "ticketId": "3",
+      "actorType": "requester",
+      "actorId": "2",
+      "type": "ticket_created",
+      "meta": {
+        "status": "open",
+        "priority": "normal",
+        "site": "tv"
+      },
+      "createdAt": "2026-02-18T18:50:56.190Z"
+    },
+    {
+      "id": "4",
+      "ticketId": "3",
+      "actorType": "requester",
+      "actorId": "2",
+      "type": "requester_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-18T18:52:08.617Z"
+    },
+    {
+      "id": "5",
+      "ticketId": "3",
+      "actorType": "requester",
+      "actorId": "2",
+      "type": "requester_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-18T18:52:10.450Z"
+    },
+    {
+      "id": "6",
+      "ticketId": "3",
+      "actorType": "requester",
+      "actorId": "2",
+      "type": "requester_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-18T18:52:11.682Z"
+    },
+    {
+      "id": "7",
+      "ticketId": "3",
+      "actorType": "requester",
+      "actorId": "2",
+      "type": "requester_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-18T18:52:13.626Z"
+    },
+    {
+      "id": "8",
+      "ticketId": "3",
+      "actorType": "support",
+      "actorId": "2",
+      "type": "assignee_changed",
+      "meta": {
+        "from": null,
+        "to": "2"
+      },
+      "createdAt": "2026-02-18T20:28:20.730Z"
+    },
+    {
+      "id": "9",
+      "ticketId": "3",
+      "actorType": "support",
+      "actorId": "2",
+      "type": "support_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-18T21:25:08.436Z"
+    },
+    {
+      "id": "10",
+      "ticketId": "3",
+      "actorType": "support",
+      "actorId": "2",
+      "type": "status_changed",
+      "meta": {
+        "from": "open",
+        "to": "in_progress"
+      },
+      "createdAt": "2026-02-18T21:25:08.436Z"
+    },
+    {
+      "id": "11",
+      "ticketId": "3",
+      "actorType": "support",
+      "actorId": "2",
+      "type": "support_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-19T09:48:53.255Z"
+    },
+    {
+      "id": "12",
+      "ticketId": "4",
+      "actorType": "requester",
+      "actorId": "3",
+      "type": "ticket_created",
+      "meta": {
+        "status": "open",
+        "priority": "urgent",
+        "site": "espacio"
+      },
+      "createdAt": "2026-02-19T09:52:02.261Z"
+    },
+    {
+      "id": "13",
+      "ticketId": "4",
+      "actorType": "support",
+      "actorId": "2",
+      "type": "support_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-19T09:56:10.146Z"
+    },
+    {
+      "id": "14",
+      "ticketId": "4",
+      "actorType": "support",
+      "actorId": "2",
+      "type": "status_changed",
+      "meta": {
+        "from": "open",
+        "to": "in_progress"
+      },
+      "createdAt": "2026-02-19T09:56:10.146Z"
+    },
+    {
+      "id": "15",
+      "ticketId": "4",
+      "actorType": "requester",
+      "actorId": "3",
+      "type": "requester_reply",
+      "meta": {
+        "visibility": "public"
+      },
+      "createdAt": "2026-02-19T10:12:58.561Z"
+    }
+  ]
+}

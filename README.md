@@ -1,36 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Flow
 
-## Getting Started
+Expoflamenco Flow nace para resolver el problema de la centralización excesiva del soporte. Cuando una persona de Soporte no puede responder directamente a una consulta, el proceso actual obliga a reenviar correos, poner en contexto a terceros y añadir intermediarios innecesarios. Se generan tiempos muertos para incidencias que deberían resolverse con agilidad.
 
-First, run the development server:
+Flow propone un sistema estructurado de tickets que elimina esa dependencia de un único canal y de una única persona. Los empleados crean solicitudes organizadas, y el equipo de Soporte puede atenderlas de forma simultánea, priorizarlas y escalar internamente a perfiles de mayor nivel sin involucrar de nuevo al usuario ni saturar el correo electrónico
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+La aplicación funciona íntegramente en el navegador y puede apoyarse en notificaciones web, SMS y correo electrónico para alertar sobre cambios de estado, prioridad o cualquier actualización relevante
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La estructura se divide en dos entornos:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* /app: espacio para que los empleados creen y consulten sus tickets.
+* /panel: entorno de gestión donde el equipo de Soporte visualiza, organiza y responde las solicitudes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El equipo de Soporte tiene acceso completo al histórico de tickets desde el panel. En cambio, para evitar interfaces sobrecargadas y mantener una experiencia limpia, los empleados solo podrán consultar sus tickets durante los 60 días naturales posteriores a su creación
