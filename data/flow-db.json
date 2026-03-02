@@ -1,72 +1,34 @@
 {
   "meta": {
     "version": 1,
-    "updatedAt": "2026-02-19T11:16:48.759Z",
+    "updatedAt": "2026-03-02T11:33:38.545Z",
     "nextIds": {
-      "requester": 4,
-      "requesterSession": 5,
+      "requester": 2,
+      "requesterSession": 2,
       "supportUser": 7,
-      "supportSession": 4,
-      "ticket": 5,
-      "ticketMessage": 13,
-      "ticketEvent": 16
+      "supportSession": 5,
+      "ticket": 2,
+      "ticketMessage": 2,
+      "ticketEvent": 3
     }
   },
   "requesters": [
     {
       "id": "1",
       "name": "Víctor Moya",
-      "email": "victor@expoflamenco.com",
-      "createdAt": "2026-02-18T16:49:07.818Z",
-      "updatedAt": "2026-02-18T17:10:12.660Z"
-    },
-    {
-      "id": "2",
-      "name": "victror",
-      "email": "victortest@gmail.com",
-      "createdAt": "2026-02-18T18:50:56.190Z",
-      "updatedAt": "2026-02-18T18:50:56.190Z"
-    },
-    {
-      "id": "3",
-      "name": "Alberto Moya",
-      "email": "alberto@expoflamenco.com",
-      "createdAt": "2026-02-19T09:52:02.261Z",
-      "updatedAt": "2026-02-19T09:52:02.261Z"
+      "email": "victormoya11@outlook.com",
+      "createdAt": "2026-02-19T12:47:39.911Z",
+      "updatedAt": "2026-02-19T12:47:39.911Z"
     }
   ],
   "requesterSessions": [
     {
       "id": "1",
       "requesterId": "1",
-      "tokenHash": "c1d3b9f538ae65d4d67d12d38030560c1d05295f0e477d76ffe14ea62385d668",
-      "createdAt": "2026-02-18T16:49:07.820Z",
-      "expiresAt": "2026-03-20T16:49:07.820Z",
-      "lastSeenAt": "2026-02-18T16:49:07.820Z"
-    },
-    {
-      "id": "2",
-      "requesterId": "1",
-      "tokenHash": "9073bfa4f2c6216d12b831b26d2227c0c584e686f337c4356650cd78d4a17dea",
-      "createdAt": "2026-02-18T17:10:12.676Z",
-      "expiresAt": "2026-03-20T17:10:12.676Z",
-      "lastSeenAt": "2026-02-18T17:10:12.676Z"
-    },
-    {
-      "id": "3",
-      "requesterId": "2",
-      "tokenHash": "058d560d19b7af61b9c2e3a28ef1427dfdb6f2b2243048e4735226283365c27e",
-      "createdAt": "2026-02-18T18:50:56.192Z",
-      "expiresAt": "2026-03-20T18:50:56.192Z",
-      "lastSeenAt": "2026-02-18T18:50:56.192Z"
-    },
-    {
-      "id": "4",
-      "requesterId": "3",
-      "tokenHash": "eac09127f233665e8a94080860d23e3da1dd7d253b627bcfdae57eae7498ac90",
-      "createdAt": "2026-02-19T09:52:02.261Z",
-      "expiresAt": "2026-04-20T09:52:02.261Z",
-      "lastSeenAt": "2026-02-19T09:52:02.261Z"
+      "tokenHash": "4ee5623741da72dce1392dba55ac98b80fa0b0a109fa4e4c4453540339088b07",
+      "createdAt": "2026-02-19T12:47:39.911Z",
+      "expiresAt": "2026-04-20T12:47:39.911Z",
+      "lastSeenAt": "2026-02-19T12:47:39.911Z"
     }
   ],
   "supportUsers": [
@@ -143,59 +105,29 @@
       "createdAt": "2026-02-19T09:36:57.580Z",
       "expiresAt": "2026-02-19T21:36:57.580Z",
       "lastSeenAt": "2026-02-19T09:36:57.580Z"
+    },
+    {
+      "id": "4",
+      "supportUserId": "2",
+      "tokenHash": "2ad805f8da267ba903135a14a488448b77f4ff93cbf40c9f314e91d0f7578c13",
+      "createdAt": "2026-02-19T12:57:02.729Z",
+      "expiresAt": "2026-02-20T00:57:02.729Z",
+      "lastSeenAt": "2026-02-19T12:57:02.729Z"
     }
   ],
   "tickets": [
     {
       "id": "1",
-      "code": "FLOW-000001",
+      "code": "19021347",
       "requesterId": "1",
-      "subject": "Esto es un ticket de prueba",
-      "description": "Hola!",
-      "status": "open",
-      "priority": "high",
-      "assigneeId": null,
-      "createdAt": "2026-02-18T16:49:07.818Z",
-      "updatedAt": "2026-02-18T16:49:07.818Z"
-    },
-    {
-      "id": "2",
-      "code": "18021810",
-      "requesterId": "1",
-      "subject": "Test 2",
-      "site": "comunidad",
-      "description": "com test",
-      "status": "open",
-      "priority": "normal",
-      "assigneeId": null,
-      "createdAt": "2026-02-18T17:10:12.660Z",
-      "updatedAt": "2026-02-18T17:10:12.660Z"
-    },
-    {
-      "id": "3",
-      "code": "18021950",
-      "requesterId": "2",
-      "subject": "soy un poco tonto",
-      "site": "tv",
-      "description": "lo que me pasa es que soy un poco tonto",
-      "status": "in_progress",
-      "priority": "normal",
-      "assigneeId": "2",
-      "createdAt": "2026-02-18T18:50:56.190Z",
-      "updatedAt": "2026-02-19T09:48:53.255Z"
-    },
-    {
-      "id": "4",
-      "code": "19021052",
-      "requesterId": "3",
-      "subject": "Me he dado un golpe en el pie",
+      "subject": "no me funciona la agenda",
       "site": "espacio",
-      "description": "Me he hecho daño golpeándome el pie contra el suelo",
-      "status": "in_progress",
-      "priority": "urgent",
-      "assigneeId": null,
-      "createdAt": "2026-02-19T09:52:02.261Z",
-      "updatedAt": "2026-02-19T10:12:58.561Z"
+      "description": "Necesito ayuda con: no me funciona la agenda",
+      "status": "open",
+      "priority": "normal",
+      "assigneeId": "5",
+      "createdAt": "2026-02-19T12:47:39.911Z",
+      "updatedAt": "2026-02-19T12:51:48.496Z"
     }
   ],
   "ticketMessages": [
@@ -205,107 +137,8 @@
       "authorType": "requester",
       "authorId": "1",
       "visibility": "public",
-      "body": "Hola!",
-      "createdAt": "2026-02-18T16:49:07.818Z"
-    },
-    {
-      "id": "2",
-      "ticketId": "2",
-      "authorType": "requester",
-      "authorId": "1",
-      "visibility": "public",
-      "body": "com test",
-      "createdAt": "2026-02-18T17:10:12.660Z"
-    },
-    {
-      "id": "3",
-      "ticketId": "3",
-      "authorType": "requester",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "lo que me pasa es que soy un poco tonto",
-      "createdAt": "2026-02-18T18:50:56.190Z"
-    },
-    {
-      "id": "4",
-      "ticketId": "3",
-      "authorType": "requester",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "follow up",
-      "createdAt": "2026-02-18T18:52:08.617Z"
-    },
-    {
-      "id": "5",
-      "ticketId": "3",
-      "authorType": "requester",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "4rtrt",
-      "createdAt": "2026-02-18T18:52:10.450Z"
-    },
-    {
-      "id": "6",
-      "ticketId": "3",
-      "authorType": "requester",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "trtr",
-      "createdAt": "2026-02-18T18:52:11.682Z"
-    },
-    {
-      "id": "7",
-      "ticketId": "3",
-      "authorType": "requester",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "rttrtrr",
-      "createdAt": "2026-02-18T18:52:13.626Z"
-    },
-    {
-      "id": "8",
-      "ticketId": "3",
-      "authorType": "support",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "HOLA?",
-      "createdAt": "2026-02-18T21:25:08.436Z"
-    },
-    {
-      "id": "9",
-      "ticketId": "3",
-      "authorType": "support",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "e",
-      "createdAt": "2026-02-19T09:48:53.255Z"
-    },
-    {
-      "id": "10",
-      "ticketId": "4",
-      "authorType": "requester",
-      "authorId": "3",
-      "visibility": "public",
-      "body": "Me he hecho daño golpeándome el pie contra el suelo",
-      "createdAt": "2026-02-19T09:52:02.261Z"
-    },
-    {
-      "id": "11",
-      "ticketId": "4",
-      "authorType": "support",
-      "authorId": "2",
-      "visibility": "public",
-      "body": "¿Te duele mucho?",
-      "createdAt": "2026-02-19T09:56:10.146Z"
-    },
-    {
-      "id": "12",
-      "ticketId": "4",
-      "authorType": "requester",
-      "authorId": "3",
-      "visibility": "public",
-      "body": "Sí, me duele bastante. ¿Qué puedo hacer?",
-      "createdAt": "2026-02-19T10:12:58.561Z"
+      "body": "Necesito ayuda con: no me funciona la agenda",
+      "createdAt": "2026-02-19T12:47:39.911Z"
     }
   ],
   "ticketEvents": [
@@ -317,172 +150,22 @@
       "type": "ticket_created",
       "meta": {
         "status": "open",
-        "priority": "high"
+        "priority": "normal",
+        "site": "espacio"
       },
-      "createdAt": "2026-02-18T16:49:07.818Z"
+      "createdAt": "2026-02-19T12:47:39.911Z"
     },
     {
       "id": "2",
-      "ticketId": "2",
-      "actorType": "requester",
-      "actorId": "1",
-      "type": "ticket_created",
-      "meta": {
-        "status": "open",
-        "priority": "normal",
-        "site": "comunidad"
-      },
-      "createdAt": "2026-02-18T17:10:12.660Z"
-    },
-    {
-      "id": "3",
-      "ticketId": "3",
-      "actorType": "requester",
-      "actorId": "2",
-      "type": "ticket_created",
-      "meta": {
-        "status": "open",
-        "priority": "normal",
-        "site": "tv"
-      },
-      "createdAt": "2026-02-18T18:50:56.190Z"
-    },
-    {
-      "id": "4",
-      "ticketId": "3",
-      "actorType": "requester",
-      "actorId": "2",
-      "type": "requester_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-18T18:52:08.617Z"
-    },
-    {
-      "id": "5",
-      "ticketId": "3",
-      "actorType": "requester",
-      "actorId": "2",
-      "type": "requester_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-18T18:52:10.450Z"
-    },
-    {
-      "id": "6",
-      "ticketId": "3",
-      "actorType": "requester",
-      "actorId": "2",
-      "type": "requester_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-18T18:52:11.682Z"
-    },
-    {
-      "id": "7",
-      "ticketId": "3",
-      "actorType": "requester",
-      "actorId": "2",
-      "type": "requester_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-18T18:52:13.626Z"
-    },
-    {
-      "id": "8",
-      "ticketId": "3",
+      "ticketId": "1",
       "actorType": "support",
       "actorId": "2",
       "type": "assignee_changed",
       "meta": {
         "from": null,
-        "to": "2"
+        "to": "5"
       },
-      "createdAt": "2026-02-18T20:28:20.730Z"
-    },
-    {
-      "id": "9",
-      "ticketId": "3",
-      "actorType": "support",
-      "actorId": "2",
-      "type": "support_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-18T21:25:08.436Z"
-    },
-    {
-      "id": "10",
-      "ticketId": "3",
-      "actorType": "support",
-      "actorId": "2",
-      "type": "status_changed",
-      "meta": {
-        "from": "open",
-        "to": "in_progress"
-      },
-      "createdAt": "2026-02-18T21:25:08.436Z"
-    },
-    {
-      "id": "11",
-      "ticketId": "3",
-      "actorType": "support",
-      "actorId": "2",
-      "type": "support_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-19T09:48:53.255Z"
-    },
-    {
-      "id": "12",
-      "ticketId": "4",
-      "actorType": "requester",
-      "actorId": "3",
-      "type": "ticket_created",
-      "meta": {
-        "status": "open",
-        "priority": "urgent",
-        "site": "espacio"
-      },
-      "createdAt": "2026-02-19T09:52:02.261Z"
-    },
-    {
-      "id": "13",
-      "ticketId": "4",
-      "actorType": "support",
-      "actorId": "2",
-      "type": "support_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-19T09:56:10.146Z"
-    },
-    {
-      "id": "14",
-      "ticketId": "4",
-      "actorType": "support",
-      "actorId": "2",
-      "type": "status_changed",
-      "meta": {
-        "from": "open",
-        "to": "in_progress"
-      },
-      "createdAt": "2026-02-19T09:56:10.146Z"
-    },
-    {
-      "id": "15",
-      "ticketId": "4",
-      "actorType": "requester",
-      "actorId": "3",
-      "type": "requester_reply",
-      "meta": {
-        "visibility": "public"
-      },
-      "createdAt": "2026-02-19T10:12:58.561Z"
+      "createdAt": "2026-02-19T12:51:48.496Z"
     }
   ]
 }
